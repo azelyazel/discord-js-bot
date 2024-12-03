@@ -39,7 +39,7 @@ module.exports = {
     enabled: true, // enable or disable dashboard
     baseURL: "https://discord-js-bot-ovnk.onrender.com", // base url
     failureURL: "https://discord-js-bot-ovnk.onrender.com", // failure redirect url
-    port: "", // port to run the bot on
+    port: "3000", // port to run the bot on
   },
 
   ECONOMY: {
