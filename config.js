@@ -103,10 +103,10 @@ module.exports = {
   },
 
   PRESENCE: {
-    ENABLED: false, // Whether or not the bot should update its status
-    STATUS: "online", // The bot's status [online, idle, dnd, invisible]
-    TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} members in {servers} servers", // Your bot status message
+    ENABLED: true, // Whether or not the bot should update its status
+    STATUS: "idle", // The bot's status [online, idle, dnd, invisible]
+    TYPE: "COMPETING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
+    MESSAGE: "preparing for DA OPPS | handmade with vro ❤️", // Your bot status message
   },
 
   STATS: {
