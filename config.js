@@ -9,7 +9,7 @@ module.exports = {
     SLASH: true, // Should the interactions be enabled
     CONTEXT: true, // Should contexts be enabled
     GLOBAL: false, // Should the interactions be registered globally
-    TEST_GUILD_ID: "1308856516069031956", // Guild ID where the interactions should be registered. [** Test you commands here first **]
+    TEST_GUILD_ID: "1306357854768205874", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
     BOT_EMBED: "#2B2D31",
@@ -37,8 +37,8 @@ module.exports = {
 
   DASHBOARD: {
     enabled: true, // enable or disable dashboard
-    baseURL: "http://localhost:8080", // base url
-    failureURL: "http://localhost:8080", // failure redirect url
+    baseURL: "https://discord-js-bot-ovnk.onrender.com:8080", // base url
+    failureURL: "https://discord-js-bot-ovnk.onrender.com:8080", // failure redirect url
     port: "8080", // port to run the bot on
   },
 
