@@ -1,22 +1,22 @@
 module.exports = {
-  OWNER_IDS: [""], // Bot owner ID's
+  OWNER_IDS: ["979689352848355358"], // Bot owner ID's
   SUPPORT_SERVER: "", // Your bot support server
   PREFIX_COMMANDS: {
     ENABLED: true, // Enable/Disable prefix commands
     DEFAULT_PREFIX: "!", // Default prefix for the bot
   },
   INTERACTIONS: {
-    SLASH: false, // Should the interactions be enabled
-    CONTEXT: false, // Should contexts be enabled
+    SLASH: true, // Should the interactions be enabled
+    CONTEXT: true, // Should contexts be enabled
     GLOBAL: false, // Should the interactions be registered globally
-    TEST_GUILD_ID: "xxxxxxxxxxx", // Guild ID where the interactions should be registered. [** Test you commands here first **]
+    TEST_GUILD_ID: "1308856516069031956", // Guild ID where the interactions should be registered. [** Test you commands here first **]
   },
   EMBED_COLORS: {
-    BOT_EMBED: "#068ADD",
-    TRANSPARENT: "#36393F",
-    SUCCESS: "#00A56A",
-    ERROR: "#D61A3C",
-    WARNING: "#F7E919",
+    BOT_EMBED: "#2B2D31",
+    TRANSPARENT: "#2B2D31",
+    SUCCESS: "#2B2D31",
+    ERROR: "#2B2D31",
+    WARNING: "#2B2D31",
   },
   CACHE_SIZE: {
     GUILDS: 100,
@@ -31,12 +31,12 @@ module.exports = {
 
   AUTOMOD: {
     ENABLED: false,
-    LOG_EMBED: "#36393F",
-    DM_EMBED: "#36393F",
+    LOG_EMBED: "#2B2D31",
+    DM_EMBED: "#2B2D31",
   },
 
   DASHBOARD: {
-    enabled: false, // enable or disable dashboard
+    enabled: true, // enable or disable dashboard
     baseURL: "http://localhost:8080", // base url
     failureURL: "http://localhost:8080", // failure redirect url
     port: "8080", // port to run the bot on
@@ -76,29 +76,29 @@ module.exports = {
   },
 
   IMAGE: {
-    ENABLED: false,
-    BASE_API: "https://strangeapi.hostz.me/api",
+    ENABLED: true,
+    BASE_API: "Njc0ZjY3MzM3MDZhMzliMzA2NTI4M2Ew.qyhNv9FZ2DWr7LJqpe0nFgE2xnAew5dCK83PmjSE",
   },
 
   INVITE: {
-    ENABLED: false,
+    ENABLED: true,
   },
 
   MODERATION: {
-    ENABLED: false,
+    ENABLED: true,
     EMBED_COLORS: {
-      TIMEOUT: "#102027",
-      UNTIMEOUT: "#4B636E",
-      KICK: "#FF7961",
-      SOFTBAN: "#AF4448",
-      BAN: "#D32F2F",
-      UNBAN: "#00C853",
-      VMUTE: "#102027",
-      VUNMUTE: "#4B636E",
-      DEAFEN: "#102027",
-      UNDEAFEN: "#4B636E",
-      DISCONNECT: "RANDOM",
-      MOVE: "RANDOM",
+      TIMEOUT: "#2B2D31",
+      UNTIMEOUT: "#2B2D31",
+      KICK: "#2B2D31",
+      SOFTBAN: "#2B2D31",
+      BAN: "#2B2D31",
+      UNBAN: "#2B2D31",
+      VMUTE: "#2B2D31",
+      VUNMUTE: "#2B2D31",
+      DEAFEN: "#2B2D31",
+      UNDEAFEN: "#2B2D31",
+      DISCONNECT: "#2B2D31",
+      MOVE: "#2B2D31",
     },
   },
 
